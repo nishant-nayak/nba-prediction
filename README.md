@@ -5,8 +5,11 @@ To predict the results of nba games.
 ## Resources 
 
 nbastats - https://www.nba.com/stats/teams/traditional/?sort=W_PCT&dir=-1&Season=2019-20&SeasonType=Regular%20Season&Month=1
+
 bbref - https://www.basketball-reference.com/leagues/NBA_2020_games.html
+
 pilot - https://towardsdatascience.com/building-my-first-machine-learning-model-nba-prediction-algorithm-dee5c5bc4cc1
+
 scraping data - https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 
 ## Directory Structure
