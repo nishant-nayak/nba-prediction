@@ -19,3 +19,6 @@ contains the code used to scrape data from each of the two websites and the code
 
 ### EDA and model fitting/
 contains the code for EDA and the models, both inbuilt and custom, used to predict the outcome of the games.
+
+### datasets/
+contains the combined data and the data scraped from each of the sites after they were cleaned. 
