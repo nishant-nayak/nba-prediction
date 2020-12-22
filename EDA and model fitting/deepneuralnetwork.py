@@ -7,10 +7,10 @@ from sklearn.model_selection import train_test_split
 
 def fetchdata():
     df=pd.DataFrame()
-    for season in os.scandir('D:\\Pranav\\Code\\IEEE\\combined'):
+    for season in os.scandir('D:\\Pranav\\Code\\IEEE\\nba-prediction-repo\\datasets\\combined'):
         if season.is_dir():
-            for month in os.scandir('D:\\Pranav\\Code\\IEEE\\combined\\'+season.name):
-                temp=pd.read_csv('D:\\Pranav\\Code\\IEEE\\combined\\'+season.name+'\\'+month.name)
+            for month in os.scandir('D:\\Pranav\\Code\\IEEE\\nba-prediction-repo\\datasets\\combined\\'+season.name):
+                temp=pd.read_csv('D:\\Pranav\\Code\\IEEE\\nba-prediction-repo\\datasets\\combined\\'+season.name+'\\'+month.name)
                 df=df.append(temp,ignore_index=True)
     df.drop(['Team1','Team2','Team1Score','Team2Score'],axis=1,inplace=True)
     return df  
@@ -149,16 +149,13 @@ def predict(parameters,X,Y):
 
 def main():
     data=fetchdata()
-    print("got data")
     X_train,Y_train,X_test,Y_test=setdata(data)
-    print("split data")
     learning_rate,num_iterations,layer_dims=sethyperparameters(X_train)
-    print("set hyperparameters")
     parameters,costs=model(X_train,Y_train,layer_dims,learning_rate,num_iterations)
     testaccuracy=predict(parameters,X_test,Y_test)
-    print(testaccuracy)
+    print("accuracy",testaccuracy)
     costs=np.squeeze(costs)
-    print(costs[-1])
+    print("last recorded cost",costs[-1])
     plt.plot(costs)
     plt.xlabel("Number of iterations (per 100)")
     plt.ylabel("Cost")
