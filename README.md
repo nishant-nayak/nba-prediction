@@ -12,6 +12,18 @@ pilot - https://towardsdatascience.com/building-my-first-machine-learning-model-
 
 scraping data - https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 
+all nba team prediction model - https://www.kaggle.com/felixdonovan/predicting-the-all-nba-teams
+
+nba all star league prediction model - https://towardsdatascience.com/using-machine-learning-to-predict-nba-all-stars-part-2-modelling-a66e6b534998
+
+evaluating player similarity - https://towardsdatascience.com/which-nba-players-are-most-similar-machine-learning-provides-the-answers-r-project-b903f9b2fe1f
+
+player ranking in soccer - https://arxiv.org/pdf/1802.04987.pdf
+
+predict strategy of a team - https://www.mdpi.com/2076-3417/10/1/24/htm
+
+selecting a team to beat a given opponent - https://thesai.org/Downloads/Volume8No8/Paper_59-Automated_Player_Selection_for_a_Sports_Team.pdf
+
 ## Directory Structure
 
 ### datascraping/ 
