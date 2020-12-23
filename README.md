@@ -24,6 +24,8 @@ predict strategy of a team - https://www.mdpi.com/2076-3417/10/1/24/htm
 
 selecting a team to beat a given opponent - https://thesai.org/Downloads/Volume8No8/Paper_59-Automated_Player_Selection_for_a_Sports_Team.pdf
 
+use individual player stats to come up with the team stats and use the pilot model to predict the winner?
+
 ## Directory Structure
 
 ### datascraping/ 
