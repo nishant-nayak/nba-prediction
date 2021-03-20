@@ -2,7 +2,7 @@
 
 A project to predict the outcome of NBA matches using Machine Learning.
 
-# Data Description
+## Data Description
 
 Note that the columns with column names as Team1COLNAME and Team2COLNAME correspond to the same COLNAME description, and the two columns refer to the two teams playing that game. Also, note that the statistics were taken on a month-wise basis from [Basketball Reference](https://www.basketball-reference.com/) and the [official NBA Website](https://www.nba.com/stats/).
 
@@ -31,20 +31,24 @@ Note that the columns with column names as Team1COLNAME and Team2COLNAME corresp
 |     PACE    |                             Pace                            |
 |     PIE     |                    Player Impact Estimate                   |
 
-# Directory Description
+## Directory Description
 
 ### [/datasets](/datasets/)
+
 Contains all the raw and preprocessed datasets.
 
 ### [/webdriver](/webdriver/)
+
 Contains the Chrome webdriver used for data scraping.
 
 ### [data_scraping.py](/data_scraping.py)
+
 Python File to scrape the relevant data from the internet.
 
 ### [data_preprocessing.ipynb](/data_preprocessing.ipynb)
+
 Jupyter Notebook used for data preprocessing.
 
 ### [data_modelling.ipynb](/data_modelling.ipynb)
-Jupyter Notebook used to fit simple Machine Learning models to the data.
 
+Jupyter Notebook used to fit simple Machine Learning models to the data.
