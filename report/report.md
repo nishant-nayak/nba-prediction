@@ -38,7 +38,6 @@ Using feature selection algorithms and Support Vector Machines (SVM) to predict 
 
 ### Synergy
 
-<<<<<<< HEAD
 In Basketball, player-player chemistry plays a big role in predicting the output of the games. Here, the motivation of this model is to understand the role that player-player chemistry (synergy) may play in predicting game outcomes and providing quantitative predictions of chemistry between players. 
 
 The inputs for our algorithm will be the identity of the players on each team for a given game. We will then use logistic regression with a linear model and a quadratic.
@@ -137,7 +136,6 @@ Since it is based on decision tree algorithms, it splits the tree leaf wise with
 
 ![LightGBM vs Boosting](https://github.com/harsh2338/nba-prediction/blob/main/assets/report_images/tree_growth.png)
 
-<<<<<<< HEAD
 ### Bayesian Opt
 
 **Bayesian Optimization** is a probabilistic model based approach for finding the minimum of any function that returns a real-value metric. It is very effective with real-world applications in high-dimensional parameter-tuning for complex machine learning algorithms. Bayesian optimization utilizes the Bayesian technique of setting a prior over the objective function and combining it with evidence to get a posterior function.
