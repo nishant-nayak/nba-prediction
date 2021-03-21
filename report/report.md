@@ -136,7 +136,7 @@ Since it is based on decision tree algorithms, it splits the tree leaf wise with
 
 ![LightGBM vs Boosting](https://github.com/harsh2338/nba-prediction/blob/main/assets/report_images/tree_growth.png)
 
-### Bayesian Opt
+### Bayesian Optimization
 
 **Bayesian Optimization** is a probabilistic model based approach for finding the minimum of any function that returns a real-value metric. It is very effective with real-world applications in high-dimensional parameter-tuning for complex machine learning algorithms. Bayesian optimization utilizes the Bayesian technique of setting a prior over the objective function and combining it with evidence to get a posterior function.
 
