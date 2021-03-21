@@ -39,15 +39,15 @@ It predicted that in the 2009-10 season, if the New Orleans Hornets traded Chris
 
 The Probabilty of an event to occur is calculated using the below formula
 
-![Conditional probability of each event](https://github.com/harsh2338/nba-prediction/blob/main/images/conditional_probability.png)
+![Conditional probability of each event](https://github.com/harsh2338/nba-prediction/blob/main/assets/report_images/conditional_probability.png)
 
 For example, the probabilty of a steal by Rondo is given as:
 
-![Example of probability of a steal](https://github.com/harsh2338/nba-prediction/blob/main/images/example_prob_of_steal.png)
+![Example of probability of a steal](https://github.com/harsh2338/nba-prediction/blob/main/assets/report_images/example_prob_of_steal.png)
 
 Using the probabilities the series of events can be predicted using the flow diagram
 
-![Flow of events](https://github.com/harsh2338/nba-prediction/blob/main/images/events_flow.png)
+![Flow of events](https://github.com/harsh2338/nba-prediction/blob/main/assets/report_images/events_flow.png)
 
 **Individual Player Ratings**:
 By this example we can explain how a player is rated. Let’s say we create a fictional player who has Ronnie Brewer’s “steals” ratings, but is replacement level in all other skills. We then simulate games where one team consists of the fictional player and four replacement players, and their opponent utilizes five replacement players. The estimated point differential of this game is the player’s ratings for that particular skill.
@@ -82,7 +82,7 @@ LightGBM is prefixed as ‘Light’ because of its high speed. Light GBM can han
 
 Since it is based on decision tree algorithms, it splits the tree leaf wise with the best fit whereas other boosting algorithms split the tree depth wise or level wise rather than leaf-wise. So when growing on the same leaf in Light GBM, the leaf-wise algorithm can reduce more loss than the level-wise algorithm and hence results in much better accuracy which can rarely be achieved by any of the existing boosting algorithms.
 
-![LightGBM vs Boosting](https://github.com/harsh2338/nba-prediction/blob/main/images/tree_growth.png)
+![LightGBM vs Boosting](https://github.com/harsh2338/nba-prediction/blob/main/assets/report_images/tree_growth.png)
 
 NN Pranav
 
