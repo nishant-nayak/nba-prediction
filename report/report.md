@@ -38,7 +38,37 @@ Using feature selection algorithms and Support Vector Machines (SVM) to predict 
 
 ### Synergy
 
+<<<<<<< HEAD
+In Basketball, player-player chemistry plays a big role in predicting the output of the games. Here, the motivation of this model is to understand the role that player-player chemistry (synergy) may play in predicting game outcomes and providing quantitative predictions of chemistry between players. 
+
+The inputs for our algorithm will be the identity of the players on each team for a given game. We will then use logistic regression with a linear model and a quadratic.
+
+model to output a prediction on which team will win the match. We also provide a comparison using a multi-layer perceptron neural net.
+
+**Linear Model**
+
+![alt_text](images/linear_model.png)
+
+**Quadratic Model**
+
+![alt_text](images/quad_model.png)
+
+We’ll also take a look at the learned parameters of the quadratic model which will give us quantitative parameters to compare the chemistry of the players. 
+
+The feature vector for every team would have a length of total number of players. It would have 1s in positions corresponding to its players and 0s elsewhere. Using this as input to our quadratic model we get two matrices **S** and **A**. 
+
+
+
+*   Diagonal elements of S - indicator of player’s individual skill 
+*   Off-diagonal elements of S - indicator of how much the two players as teammates contribute positively to the win percentage of their team 
+*   Off-diagonal elements of A - indicator of the difference in the players’ contribution to their teams’ winning chance when they are on opposing teams
+
+These are very important parameters. Using these we can calculate how well would any two players fit together. Players i and j would fit together well if the value of **S**[i][j] is high and **A**[i][j] is low.
+
+This work has a lot of potential as it can effectively predict which players should be paired together. Also, it can predict successful transfers and trades. But there are some drawbacks such as we have to include age as a factor. Also it doesn’t account for new players. Nevertheless, this has a lot of scope and can be explored further.
+=======
 ... Sanjkeet
+>>>>>>> a4ac8072e87011000782c4abfbea88d8d743d15d
 
 ### Positive and Negative Synergies
 
@@ -110,6 +140,17 @@ Since it is based on decision tree algorithms, it splits the tree leaf wise with
 
 ![LightGBM vs Boosting](https://github.com/harsh2338/nba-prediction/blob/main/assets/report_images/tree_growth.png)
 
+<<<<<<< HEAD
+### Bayesian Opt
+
+**Bayesian Optimization** is a probabilistic model based approach for finding the minimum of any function that returns a real-value metric. It is very effective with real-world applications in high-dimensional parameter-tuning for complex machine learning algorithms. Bayesian optimization utilizes the Bayesian technique of setting a prior over the objective function and combining it with evidence to get a posterior function.
+
+![alt_text](images/image3.png)
+
+Hyperparameter tuning by Bayesian Optimization of machine learning models is more efficient than Grid Search and Random Search. Bayesian Optimization has better overall performance on the test data and takes less time for optimization. 
+
+=======
+>>>>>>> a4ac8072e87011000782c4abfbea88d8d743d15d
 **Neural Networks**
 
 In order to understand the insight that deep learning can give to this task, we observed 3 different neural networks. All of them were built using TensorFlow 2 with a Keras backend. Each of the models used the ReLU activation function in hidden layers, root mean square error for the loss function and the Adam optimizer. All of them were trained for 100 epochs.
