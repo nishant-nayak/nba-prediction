@@ -18,7 +18,7 @@
 
 **About the paper**
 
-Allan Z. Maymin et al. provide a novel Skills Plus Minus (“SPM”) framework that can be used to measure synergies within basketball lineups, provide roster-dependent rankings of free agents, and generate mutually beneficial trades.
+Allan Z. Maymin et al.[4] provide a novel Skills Plus Minus (“SPM”) framework that can be used to measure synergies within basketball lineups, provide roster-dependent rankings of free agents, and generate mutually beneficial trades.
 
 An evaluation on each player’s offense and defense in the SPM framework for three basic skill categories is done:
 
@@ -91,3 +91,8 @@ GA Prajna
 ### Expert Opinion
 
 ... Prajna
+
+
+##### References
+
+[4] Allan Z. Maymin et al. "NBA Chemistry: Positive and Negative Synergies in Basketball", 2013
