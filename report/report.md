@@ -116,9 +116,6 @@ For constructing a team, a few star players are chosen for a team and all the ot
 
 ### Generating Line ups
 
-...
-
-Light Sanjkeet, Harsh
 
 **LightGBM**
 
