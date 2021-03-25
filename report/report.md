@@ -157,15 +157,36 @@ Model 3 also consisted of 5 layers but had 128,256 and 64 units in the hidden la
 
 ![Training and Cross validation error plot for model 3](/assets/report_images/model3plot.png)
 
+
 We can conclude that although deep learning might not be best suited for this task due to the limited size of the dataset, it does provide a slight improvement compared to the boosting models.
 
-GA Prajna
+
+**Genetic Algorithms**
+
+Genetic Algorithms are a search-based optimization technique based on principles taken from Genetic phenomena. They are frequently used to find optimal or near-optimal solutions to difficult problems, and in this case, used to solve the problem of Lineup Optimization by selecting the best combinations of players on a given set of games and predictions. 
+
+In GAs, we have a population of possible solutions for the problem in question. The solutions producing new children while going through the processes of recombination and mutation, and the process is repeated over various generations. Each individual solution from a population is assigned a fitness value. Like in Darwin's theory of the survival of the fittest, the fitter individuals (aka solutions) are given a higher chance to mate and thus yield more “fitter” individuals. In this way, the algorithm keeps giving us better and fitter solutions over the generations, or until we reach a threshold.
+In this problem, the initial solutions, that is a set of random lineups are chosen as the first generation. Based on their fitness level, the solutions are allowed to mate and produce individuals while also being subject to mutation and recombination leading to the evolution of the random solutions into the optimaized lineups.
+
 
 ### Expert Opinion
 
-... Prajna
+In conventional machine learning tasks, predictions are usually based on available historical and reliable data and disregard insights whose reliability can not be proven, for example, expert opinions, polls and betting odds. This is despite the many examples from daily life that support the validity and the accuracy of experts’ opinions in their fields of expertise. Another reason why these opinions have not been used is the lack of aggregated data in a systematic and objective fashion, but this is soon changing with the advances in NLP studies. For example, film critic reviews have been used to accurately classify the film’s performance at the box office using pre-trained models and word/sentence embeddings. 
+To use expert opinions, there is a need to first rank the experts on the basis of the success of previous predictions made. Once these experts are ranked, their opinions are weighted based on their reliability which is derived from their ranking. This is then used to train the ensemble of experts classifier which gives us the best possible outcome of the game. 
+A potential issue with this method is that it might be difficult to get the results of each game and map it to the expert opinion as the text search domain is very large. For this, it would be a better idea to look at this problem in an unsupervised way. 
+Parisi et. al., 2014 described a way to rank classifiers and then build a meta classifier in an unsupervised manner. The workflow is described briefly in the diagram below. The method is expected to be quite useful in solving our problem.
 
+![Parisi et. al.](/assets/report_images/ParisiFlowchart.png)
+
+We can even take one step further and try deep unsupervised learning approaches as described in Shaham et. al., 2016 who used a Restricted Boltzmann Machine based Deep Neural Network to create an ensemble of predictors in an unsupervised method.
+
+![Shaham et. al.](/assets/report_images/ShahamFlowchart.png)
+
+Using expert opinions for game prediction is not a very widely studied or used topic and there is a lot of scope in the field especially with the amount of data being generated for the same.
 
 ##### References
 
+[1] Fazelinia et. al., “Using Experts' Opinions in Machine Learning Tasks”, 2020.
+[2] Parisi et. al., “Ranking and combining multiple predictors without labelled data”, 2014.
+[3] Shaham et. al., “A Deep Learning Approach to Unsupervised Ensemble Learning”, 2016.
 [4] Allan Z. Maymin et al. "NBA Chemistry: Positive and Negative Synergies in Basketball", 2013
