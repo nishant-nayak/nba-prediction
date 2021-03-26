@@ -186,7 +186,7 @@ Using expert opinions for game prediction is not a very widely studied or used t
 
 ##### References
 
-[1] Fazelinia et. al., “Using Experts' Opinions in Machine Learning Tasks”, 2020.
-[2] Parisi et. al., “Ranking and combining multiple predictors without labelled data”, 2014.
-[3] Shaham et. al., “A Deep Learning Approach to Unsupervised Ensemble Learning”, 2016.
-[4] Allan Z. Maymin et al. "NBA Chemistry: Positive and Negative Synergies in Basketball", 2013
+[1] Fazelinia et. al., “Using Experts' Opinions in Machine Learning Tasks”, 2020. \
+[2] Parisi et. al., “Ranking and combining multiple predictors without labelled data”, 2014. \
+[3] Shaham et. al., “A Deep Learning Approach to Unsupervised Ensemble Learning”, 2016. \
+[4] Allan Z. Maymin et al. "NBA Chemistry: Positive and Negative Synergies in Basketball", 2013 \
