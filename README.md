@@ -1,6 +1,6 @@
 # nba-predictions
 
-A project to predict the outcome of NBA matches using Machine Learning.
+A project to predict the outcome of NBA matches using Machine Learning. Read full report [here](/report/report.md)
 
 ## Data Description
 
